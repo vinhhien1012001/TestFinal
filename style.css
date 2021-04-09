@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bor{
+    border: 1px solid red;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 70%;
+    height: 70%;
+}
+
+.main__title{
+    background-color: #f8ba41;
+    font-size: 28px;
+}
+.main__title,.main__body {
+    font-family: 'Syne Mono', monospace;
+    height: 15%;
+    width: 70%;
+    text-align: center;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__body{
+    height: 30%;
+    padding: 20px 0px;
+    background-color:grey;
+}
+/* .main__body{
+    thêm những thuộc tính riêng
+} */
+#input{
+    height: 50px;
+    width: 70%;
+    padding: 0 10px;
+    font-size: 20px;
+    font-family: 'Syne Mono';
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-c{
+    display: flex;
+    flex-direction: column;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    margin: 30px 10px;
+    display: flex;
+}
+
+.button{
+    margin: 0px 10px;
+    width: 100px;
+}
